@@ -1,0 +1,142 @@
+Codepen Link: https://codepen.io/rmjuarez12/pen/ExPRbVg
+
+**** Questions to Submit in today's file first-lastname.txt ****
+
+    1. What is Semantic HTML? 
+        A: Semantic HTML is the use of elements that have specific names to provide more information, in order to help search engines, and other browser features to know how to display certain content, and how to load it.
+
+    2. What is HTML used for? 
+        A: HTML is used to display a webpage on the browser. It is what tells the browser what to display, and how.
+
+    3. What is an attribute and where do we put it? 
+        A: Attributes are used to add some characteristics or properties to the element. The attribute is placed inside an element, on the opening tag. For example <div class="myClass"></div>, where class is an attribute.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        A: The h1 tag is an important heading tag that describes what the page is about. It is recommended to use only one in a page.
+
+    5. Name two tags that have required attributes
+        A: <input> and <a> tags. <input> requires to specify a type, and <a> requires to specify a link.
+
+    6. What do we put in the head of our HTML document? 
+        A: We used <head> to place metadata, such as CSS and JavaScript.
+
+    7. What is an id? 
+        A: An id is an attribute that gives a unique name to an element.
+
+    8. What elements can I add an id to? 
+        A: It can be used on any HTML element.
+
+    9. How many times can I use the same id on a page? 
+        A: Ids are unique, so only once on a page.
+
+    10. What is a class? 
+        A: The class is an attribute which specifies one or more class names for an HTML element.
+
+    11. What elements can I add a class to? 
+        A: Much like the id attribute, the class attribute can be applied to any HTML element.
+
+    12. How many times can I use the same class on a page? 
+        A: Different from the id attribute, you can use it as many times in a page as you see fit.
+
+    13. How do I get my link to open in a new tab?
+        A: By adding the target attribute with a value of "_blank" on you <a> tags. For example, <a href="https://google.com" target="_blank">Google</a>.
+
+    14. What is the alt attribute in the image tag used for? 
+        A: The alt attribute specifies an alternate text for an image, if the image cannot be displayed. The alt attribute provides alternative information for an image if a user for some reason cannot view it. It is a required attribute that must always be present, even if it is empty.
+
+    15. How do I reference an id?
+        A: You reference an id in a CSS rule by using the hash character(#).
+
+    16. What is the difference between a section and a div?
+        A: The section tag provides a more semantic syntax for html. With this, we can provide a more specific bit of information for the browser. The div tag is a generic tag that is used to nest other elements inside of it.
+
+    17. What is CSS used for? 
+        A: CSS is used to style the website. Is what gives the website its appearance, such as colors, backgrounds, spacing, etc.
+
+    18. How to we select an element? Example - every h2 on the page
+        A: We select it by just typing the element name. So for every h2, we just need to us "h2" to select every h2 in the page.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A: A class is used when you want to use a name several times, while an id is used a single time in the page.
+        For a class example, let's say we will create several blocks in the page that uses blue bg, and another set that uses red. You can specify a blue class and a red class, and you can use it to as many block elements as you need.
+        For an id example, let's say you need to use styling to a single block that is very important. You can use an id to make sure that it is applied to only that one element.
+
+    20. How do we select classes in CSS?
+        A: In CSS, you select a class by using a period(.).
+
+    21. How do we select a p element with a single class of “human”?
+        A: In CSS, we select it as ".human". Alternatively, we could add the p to specify it is to be used only to the p elements with class human as such: "p.human".
+
+    22. What is a parent child selector? When would this be useful? 
+        A: A parent child selector is when you specify an element(the parent), followed by the element that is within said element(the children). For example, ".classParent .classChild".
+
+    23. How do you select all links within a div with the class of sidebar?
+        A: As such: ".sidebar a". You first select the parent, which in this case is ".sidebar", and then you specify the element "a" afterwards, so it applies it to all "a" children of the parent ".sidebar".
+
+    24. What is a pseudo selector?
+        A: A pseudo-class is a selector that selects elements that are in a specific state, or specific placement. For example, they are the first element of their type, we use the pseudo selector ":first-child", or if they are being hovered over by the mouse pointer, we use the pseudo selector ":hover".
+
+    25. What do we use the change the spacing between lines?
+        A: We use "line-height".
+
+    26. What do we use to change the spacing between letters?
+        A: We use "letter-spacing".
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        A: To change everything to CAPITALS, we use "text-transform: uppercase". To transform everything to lowercase, we use "text-transform: lowercase". To transform everything so only the first letter of each word is capitalized we use ""text-transform: capitalize".
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        A: If the div already has the style and color already specified, you could use "border-width: 1px". Otherwise, if you need to specify it all, you can use "border: 1px dotted black".
+
+    29. How do I select everything on the page? 
+        A: By using an asterisk(*). This is a special character that is used in CSS to select every element(which is known as the universal selector).
+
+    30. How do I write a comment in CSS?
+        A: You use a comment in CSS by enclosing text within "/* */", which opens with "/*" and closes with "*/". So for example, "/* This is a comment */". 
+
+    31. How do I find out what file I am in, when I am using the command line? 
+        A: You can find the location you are in by using the "pwd" command.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        A: By using the command "ls". You can also use "ls -la" to get a more detailed list.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        A: You can remove a file by using the "rm <filename>" command. You must be careful, however, since the deletion is permanent, and there is no warning prompt asking you if you are sure about deleting it. Once you run the command, the file is gone for good.
+
+    34. Why should I use version control? 
+        A: Version control is important to keep track of changes within your project, and keep every team member working off the latest version. This helps avoid any issues where someone may be working on a file and either overwrote someone else's work, or is using a version with missing code.
+        
+    35. How often should I commit to github?
+        A: Very often, as each commit helps you keep track of your progress, and gives you a "checkpoint" to return to should things go south. 
+
+    36. What is the command we would use to push our repo up to github? 
+        A: **git push -u origin branch-name**(where branch-name is the branch YOU are working from) will push all of your commits from your local machine up onto github.
+
+    37. Walk me through Lambda's git flow. 
+        - First, we will "fork" the repo that we will use to work on.
+        - Second, we add our TL as a collaborator on your forked Repo.
+        - Third, we clone the repo we forked and copy it to our computer.
+        - Fourth, we create our own branch name, which is the one we will commit and push our changes to.
+        - Fifth, once we have the assignment finished, we go ahead and add, commit, then push the changes to the repo under the new branch we created.
+        - Sixth, we go ahead and create a pull request on Github, and we add out TL so he can review it, and later do the merge.
+
+        A Note, before you make a pull request, you have to make sure you are doing the request for the forked repo, and not the original one.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        A: An inline element is placed side to side when displayed on the browser. A block element takes the full width of the line it is in, moving all other elements below it.
+
+    2. What happens when an element is positioned absolutely?
+        A: When an element is positioned absolute, it no longer is stacked on the document in relation to the other elements. It pretty much sits on its own layer.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        A: You set the element to "display: inline-block".
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        A: Elements displayed block by default: div, p, section.
+        Elements displayed inline by default: input, textarea
+        Element displayed inline-block by default: button
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        A: The box model is what is used to represent the spacing in an element. This spacing can be done using margins, padding, and border. However, there are some type of elements that do not respect a width you have specified, which are the inline elements. In order to fix this, you have to use either block or inline-block for the display property.
